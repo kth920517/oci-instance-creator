@@ -41,11 +41,11 @@ jobs:
             --compartment-id "${{ secrets.OCI_TENANCY }}" \
             --availability-domain "KZts:AP-SEOUL-1-AD-1" \
             --shape "VM.Standard.A1.Flex" \
-            --shape-config '{"ocpus": 1, "memoryInGBs": 6}' \
+            --shape-config '{"ocpus": 4, "memoryInGBs": 24}' \
             --subnet-id "${{ secrets.OCI_SUBNET }}" \
             --image-id "${{ secrets.OCI_IMAGE }}" \
             --assign-public-ip true \
-            --boot-volume-size-in-gbs 100 \
+            --boot-volume-size-in-gbs 200 \
             --ssh-authorized-keys-file /tmp/ssh_key.pub \
             --display-name "AIew-instance" \
             2>&1) || true
