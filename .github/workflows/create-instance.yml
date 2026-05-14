@@ -39,7 +39,7 @@ jobs:
 
           RESULT=$(oci compute instance launch \
             --compartment-id "${{ secrets.OCI_TENANCY }}" \
-            --availability-domain "qibq:ap-seoul-1-AD-1" \
+            --availability-domain "KZts:AP-SEOUL-1-AD-1" \
             --shape "VM.Standard.A1.Flex" \
             --shape-config '{"ocpus": 1, "memoryInGBs": 6}' \
             --subnet-id "${{ secrets.OCI_SUBNET }}" \
