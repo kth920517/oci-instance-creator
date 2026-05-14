@@ -12,7 +12,7 @@ OCI Free Tier A1 Flex는 스펙이 너무 좋아서 전 세계에서 경쟁이 �
 | RAM    | 24GB             | 보통 1GB             |
 | 저장소 | 200GB            | 보통 30GB            |
 | 기간   | **영구 무료**    | 1년 한정 또는 제한적 |
-
+ 
 `Out of host capacity` 에러가 기본이고, 자동화 스크립트로 반복 시도해야 확보할 수 있습니다.
 
 ## 📌 방법 비교: GitHub Actions vs VM/로컬 크론잡
